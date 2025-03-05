@@ -1,0 +1,49 @@
+.jumbotron {
+  padding-top: 7rem;
+  background-color: #e2edff;
+}
+
+#projects {
+  background-color: #e2edff;
+}
+
+section {
+   padding-top: 5rem;
+}
+
+.animasi {
+  text-align: center;
+}
+
+.animasi:hover {
+  background-color: rgb(100, 170, 193);
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+
+/* Container untuk membatasi area animasi */
+.animation-container {
+  width: 100%;
+  overflow: hidden; /* Agar gambar yang keluar dari container tidak terlihat */
+  white-space: nowrap; /* Agar gambar tidak pindah ke baris baru */
+  position: relative;
+  border: 1px solid #ffffff; /* Optional: untuk melihat batas container */
+}
+
+/* Gambar yang akan bergerak */
+.moving-image {
+  display: inline-block;
+  animation: moveLeft 10s linear infinite; /* Animasi bergerak ke kiri */
+}
+
+/* Keyframes untuk animasi */
+@keyframes moveLeft {
+  0% {
+    transform: translateX(100vw); /* Mulai dari posisi kanan (di luar container) */
+  }
+  100% {
+    transform: translateX(-100vw); /* Berakhir di posisi kiri (di luar container) */
+  }
+}

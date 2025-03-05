@@ -1,0 +1,29 @@
+body {
+    background-color: #002460;
+}
+
+.navbar-brand {
+    img {
+        max-height: 50px;
+    }
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -30px !important;
+    
+  height: 70px;
+  border-radius: 0;
+}
+  
+ 
+.btn-login {
+  background-color: #000000;
+  color: #000000;
+    
+  &:hover {
+    background-color: #0000ff;
+    color: #1b0a0a;
+  }
+}
