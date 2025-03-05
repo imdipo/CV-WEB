@@ -17,6 +17,7 @@ Portofolio web ini adalah proyek sederhana yang dibuat menggunakan **HTML**, **C
 ## Struktur Proyek
 
 Berikut adalah struktur folder proyek ini:
+```
 Portofolio-Boostrap 5/
 ├── frontend/ # Folder untuk file frontend
 │ ├── images/ # Gambar yang digunakan di proyek
@@ -24,6 +25,7 @@ Portofolio-Boostrap 5/
 │ └── styles/ # File CSS kustom
 ├── index.html # File utama HTML
 └── README.md # File dokumentasi ini
+```
 
 
 ## Teknologi yang Digunakan
