@@ -55,10 +55,12 @@ Portofolio-Boostrap 5/
 1. **Clone Repository**:
    ```bash
    git clone https://github.com/imdipo/imdipo.github.io.git
-Buka File index.html:
+2. **Buka File index.html**:
 
 Buka file index.html di browser Anda untuk melihat tampilan web.
 
-Modifikasi Proyek:
+3. **Modifikasi Proyek**:
 
 Anda bisa mengubah file HTML, CSS, atau JavaScript sesuai kebutuhan.
+<br>
+Dibuat sebagai tugas Pemrogaman Web Pertemuan 1
